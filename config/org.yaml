@@ -1,0 +1,912 @@
+orgs:
+  khulnasoft:
+    name: Khulnasoft
+    description: Khulnasoft is Container Native Runtime Security
+
+    default_repository_permission: read
+    has_organization_projects: true
+    has_repository_projects: true
+    members_can_create_repositories: false
+
+    admins:
+      - caniszczyk
+      - ldegio
+      - leogr
+      - mstemm
+      - poiana
+      - thelinuxfoundation
+      - jasondellaluce
+      - LucaGuerra
+      - FedeDP
+
+    members:
+      - admiral0
+      - ahmedameenaim
+      - alacuku
+      - Andreagit97
+      - araujof
+      - bencer
+      - cpanato
+      - cappellinsamuele
+      - darryk10
+      - dwindsor
+      - ewilderj
+      - EXONER4TED
+      - fjogeleit
+      - gnosek
+      - hbrueckner
+      - hmadison
+      - IgorEulalio
+      - incertum
+      - Issif
+      - jonahjon
+      - Kaizhe
+      - krisnova
+      - leodido
+      - loresuso
+      - Lowaiz
+      - maxgio92
+      - mfdii
+      - mmat11
+      - mrgian
+      - Molter73
+      - rohith-raju
+      - sboschman
+      - sgaist
+      - terylt
+      - therealbobo
+      - vjjmiras
+      - zuc
+
+    repos:
+      .github:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Default community health files
+        has_projects: false
+        has_wiki: false
+      advocacy:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Advocacy machinery
+        has_projects: true
+      charts:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Community managed Helm charts for running Khulnasoft with Kubernetes
+        has_projects: true
+        has_wiki: false
+      client-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Go client and SDK for Khulnasoft
+        has_projects: true
+      client-py:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Python client and SDK for Khulnasoft
+        has_projects: true
+        has_wiki: false
+      client-rs:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: The rust language implementation of the Khulnasoft client
+        has_projects: true
+      cncf-green-review-testing:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Khulnasoft configurations intended for testing with the CNCF Green Reviews Working Group
+        has_projects: true
+        has_wiki: false
+      community:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: The Khulnasoft Project Community
+        has_projects: true
+        has_wiki: false
+      contrib:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Community sandbox to test-drive ideas/projects/code
+        has_projects: true
+        has_wiki: false
+      dbg-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: "A go tool to work with khulnasoft drivers build grid"
+        has_projects: true
+      deploy-kubernetes:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Kubernetes deployment resources for Khulnasoft
+        has_projects: false
+        has_wiki: false
+      driverkit:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: "Kit for building Khulnasoft drivers: kernel modules or eBPF probes"
+        has_projects: true
+      ebpf-probe:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: eBPF probe for syscall events
+        has_projects: true
+      event-generator:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description:
+          Generate a variety of suspect actions that are detected by Khulnasoft
+          rulesets
+        has_projects: true
+      evolution:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Evolution process of The Khulnasoft Project
+        has_projects: true
+        has_wiki: false
+      khulnasoft:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Cloud Native Runtime Security
+        has_projects: true
+        has_wiki: false
+        homepage: https://khulnasoft.com
+      khulnasoft-aws-terraform:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Terraform Module for Khulnasoft AWS Resources
+        default_branch: main
+        has_projects: true
+      khulnasoft-exporter:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Prometheus Metrics Exporter for Khulnasoft output events
+        has_projects: true
+      khulnasoft-website:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Source code of the official Khulnasoft website
+        has_projects: true
+        homepage: https://khulnasoft.com
+      flycheck-khulnasoft-rules:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft Rules Syntax Checker for Emacs, Using Flycheck
+        default_branch: main
+        has_projects: true
+      khulnasoftctl:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Administrative tooling for Khulnasoft
+        has_projects: true
+        has_wiki: false
+      khulnasoft-playground:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Web-application used to validate Khulnasoft rules and test against scap file
+        has_projects: true
+        has_wiki: false
+      khulnasoft-talon:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Response Engine for managing threats in your Kubernetes
+        has_projects: true
+        has_wiki: false
+      diginfra:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Connect Khulnasoft to your ecosystem
+        has_projects: true
+        has_wiki: false
+      diginfra-ui:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: A simple WebUI with latest events from Khulnasoft
+        has_projects: true
+        has_wiki: false
+      k8s-metacollector:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Fetches the metadata from kubernetes API server and dispatches them to Khulnasoft instances
+        has_projects: true
+        has_wiki: false
+      kernel-crawler:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: A tool to crawl Linux kernel versions
+        has_projects: false
+        has_wiki: false
+      kernel-testing:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Ansible playbooks to provision firecracker VMs and run Khulnasoft kernel tests
+        has_projects: true
+        has_wiki: false
+      kernel-module:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        has_projects: true
+      kilt:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Kilt is a project that defines how to inject foreign apps into containers
+        has_projects: true
+        has_wiki: false
+      libs:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description:
+          libsinsp, libscap, the kernel module driver, and the eBPF driver
+          sources
+        has_projects: true
+        has_wiki: false
+      libs-sdk-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Go SDK for Khulnasoft libs
+        has_projects: true
+        has_wiki: false
+      libscap:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        has_projects: true
+      libsinsp:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: "System inspection library "
+        has_projects: true
+      pdig:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: ptrace-based event producer for udig
+        has_projects: true
+        has_wiki: false
+      peribolos-syncer:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Tool to synchronize Peribolos configuration with GitHub people sources of truth.
+        has_projects: true
+        has_wiki: false
+      pigeon:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: Secrets and config manager for Khulnasoft's infrastructure
+        has_projects: true
+        has_wiki: false
+      plugin-sdk-cpp:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft plugins SDK for C++
+        has_projects: true
+      plugin-sdk-go:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft plugins SDK for Go
+        default_branch: main
+        has_projects: true
+      plugin-sdk-rs:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft plugins SDK for Rust
+        default_branch: main
+        has_projects: true
+      plugins:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft plugins registry
+        has_projects: true
+      rules:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft rule repository
+        has_projects: false
+        has_wiki: false
+      syscalls-bumper:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: A tool to automatically update supported syscalls in libs
+        has_projects: false
+        has_wiki: false
+      template-repository:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        archived: true
+        description: Acts as a template for new repositories
+        has_projects: true
+      test-infra:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        description: Khulnasoft workflow & testing infrastructure
+        has_projects: true
+        has_wiki: false
+        homepage: https://prow.khulnasoft.com
+      testing:
+        allow_merge_commit: false
+        allow_rebase_merge: true
+        allow_squash_merge: false
+        default_branch: main
+        description: All-purpose test suite for Khulnasoft and its ecosystem
+        has_projects: true
+        has_wiki: false
+
+    teams:
+      admins:
+        description: admins of the org
+        maintainers:
+          - caniszczyk
+          - ldegio
+          - leogr
+          - thelinuxfoundation
+          - mstemm
+        privacy: closed
+        repos:
+          advocacy: admin
+      charts-maintainers:
+        description: maintainers of khulnasoft/charts
+        maintainers:
+          - leogr
+        members:
+          - cpanato
+          - Issif
+          - alacuku
+        privacy: closed
+        repos:
+          charts: maintain
+      client-go-maintainers:
+        description: maintainers of khulnasoft/client-go
+        maintainers:
+          - leogr
+        members:
+          - leodido
+        privacy: closed
+        repos:
+          client-go: maintain
+      client-py-maintainers:
+        description: maintainers of khulnasoft/client-py
+        members:
+          - leodido
+          - mmat11
+        privacy: closed
+        repos:
+          client-py: maintain
+      client-rs-maintainers:
+        description: maintainers of khulnasoft/client-rs
+        members:
+          - leodido
+        privacy: closed
+        repos:
+          client-rs: maintain
+      cncf-green-review-testing-maintainers:
+        description: maintainers of khulnasoft/cncf-green-review-testing
+        maintainers:
+          - incertum
+          - leogr
+          - LucaGuerra
+          - maxgio92
+        members: []
+        privacy: closed
+        repos:
+          cncf-green-review-testing: maintain
+      community-maintainers:
+        description: maintainers of khulnasoft/community
+        maintainers:
+          - leogr
+        members:
+          - Issif
+          - araujof
+          - maxgio92
+          - terylt
+          - Andreagit97
+        privacy: closed
+        repos:
+          community: maintain
+      contrib-maintainers:
+        description: maintainers of khulnasoft/contrib
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - jasondellaluce
+        privacy: closed
+        repos:
+          contrib: maintain
+      core-maintainers:
+        description: Core maintainers of The Khulnasoft Project
+        maintainers:
+          - leogr
+          - mstemm
+        members:
+          - gnosek
+          - cpanato
+          - Issif
+          - FedeDP
+          - maxgio92
+          - zuc
+          - jasondellaluce
+          - Molter73
+          - LucaGuerra
+          - Andreagit97
+          - incertum
+          - alacuku
+          - loresuso
+        privacy: closed
+      dbg-go-maintainers:
+        description: maintainers of khulnasoft/dbg-go
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - maxgio92
+        privacy: closed
+        repos:
+          dbg-go: maintain
+      deploy-kubernetes-maintainers:
+        description: maintainers of khulnasoft/deploy-kubernetes
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - zuc
+          - jasondellaluce
+        privacy: closed
+        repos:
+          deploy-kubernetes: maintain
+      driverkit-maintainers:
+        description: maintainers of khulnasoft/driverkit
+        members:
+          - leodido
+          - dwindsor
+          - FedeDP
+          - EXONER4TED
+          - Lowaiz
+        privacy: closed
+        repos:
+          driverkit: maintain
+      event-generator-maintainers:
+        description: maintainers of khulnasoft/event-generator
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - alacuku
+        privacy: closed
+        repos:
+          event-generator: maintain
+      evolution-maintainers:
+        description: maintainers of khulnasoft/evolution
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - jasondellaluce
+        privacy: closed
+        repos:
+          evolution: maintain
+      khulnasoft-aws-terraform-maintainers:
+        description: maintainers of khulnasoft/khulnasoft-aws-terraform
+        maintainers:
+          - ldegio
+          - leogr
+          - mstemm
+        members:
+          - zuc
+          - jasondellaluce
+        privacy: closed
+        repos:
+          khulnasoft-aws-terraform: maintain
+      khulnasoft-exporter-maintainers:
+        description: maintainers of khulnasoft/khulnasoft-exporter
+        maintainers:
+          - leogr
+        members:
+          - jasondellaluce
+        privacy: closed
+        repos:
+          khulnasoft-exporter: maintain
+      khulnasoft-maintainers:
+        description: maintainers of khulnasoft/khulnasoft
+        maintainers:
+          - leogr
+          - mstemm
+        members:
+          - FedeDP
+          - jasondellaluce
+          - Andreagit97
+          - incertum
+          - LucaGuerra
+          - sgaist
+        privacy: closed
+        repos:
+          khulnasoft: maintain
+      khulnasoft-website-maintainers:
+        description: maintainers of khulnasoft/khulnasoft-website
+        maintainers:
+          - leogr
+        members:
+          - Issif
+          - jasondellaluce
+          - vjjmiras
+          - LucaGuerra
+        privacy: closed
+        repos:
+          khulnasoft-website: maintain
+      flycheck-khulnasoft-rules-maintainers:
+        description: maintainers of khulnasoft/flycheck-khulnasoft-rules
+        maintainers:
+          - mstemm
+          - ewilderj
+        members:
+        privacy: closed
+        repos:
+          flycheck-khulnasoft-rules: maintain
+      khulnasoftctl-maintainers:
+        description: maintainers of khulnasoft/khulnasoftctl
+        maintainers:
+          - leogr
+        members:
+          - zuc
+          - maxgio92
+          - fededp
+          - cpanato
+          - alacuku
+          - loresuso
+        privacy: closed
+        repos:
+          khulnasoftctl: maintain
+      khulnasoft-playground-maintainers:
+        description: maintainers of khulnasoft/khulnasoft-playground
+        maintainers:
+          - rohith-raju
+          - jasondellaluce
+          - leogr
+        members: []
+        privacy: closed
+        repos:
+          khulnasoft-playground: maintain
+      khulnasoft-talon-maintainers:
+        description: maintainers of khulnasoft/khulnasoft-talon-maintainers
+        maintainers:
+          - Issif
+          - IgorEulalio
+          - leogr
+          - cpanato
+        members: []
+        privacy: closed
+        repos:
+          khulnasoft-talon: maintain
+      diginfra-maintainers:
+        description: maintainers of khulnasoft/diginfra
+        maintainers:
+          - leogr
+        members:
+          - cpanato
+          - Issif
+          - fjogeleit
+        privacy: closed
+        repos:
+          diginfra: maintain
+      diginfra-ui-maintainers:
+        description: maintainers of khulnasoft/diginfra-ui
+        members:
+          - cpanato
+          - Issif
+          - fjogeleit
+        privacy: closed
+        repos:
+          diginfra-ui: maintain
+      github-maintainers:
+        description: maintainers of khulnasoft/.github
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - jasondellaluce
+        privacy: closed
+        repos:
+          .github: maintain
+      k8s-metacollector-maintainers:
+        description: maintainers of khulnasoft/k8s-metacollector
+        maintainers:
+          - alacuku
+          - andreagit97
+          - leogr
+          - Issif
+        members: []
+        privacy: closed
+        repos:
+          k8s-metacollector: maintain
+      kernel-crawler-maintainers:
+        description: maintainers of khulnasoft/kernel-crawler
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - maxgio92
+          - zuc
+          - EXONER4TED
+        privacy: closed
+        repos:
+          kernel-crawler: maintain
+      kernel-testing-maintainers:
+        description: maintainers of khulnasoft/kernel-testing
+        maintainers:
+          - alacuku
+          - Andreagit97
+          - FedeDP
+          - therealbobo
+        members: []
+        privacy: closed
+        repos:
+          kernel-testing: maintain
+      kilt-maintainers:
+        description: maintainers of khulnasoft/kilt
+        members:
+          - gnosek
+          - leodido
+          - admiral0
+        privacy: closed
+        repos:
+          kilt: maintain
+      libs-maintainers:
+        description: maintainers of khulnasoft/libs
+        maintainers:
+          - leogr
+          - mstemm
+          - jasondellaluce
+        members:
+          - gnosek
+          - FedeDP
+          - Molter73
+          - LucaGuerra
+          - Andreagit97
+          - hbrueckner
+          - incertum
+        privacy: closed
+        repos:
+          libs: maintain
+      libs-sdk-go-maintainers:
+        description: maintainers of khulnasoft/libs-sdk-go
+        maintainers:
+          - leogr
+        members:
+          - araujof
+          - jasondellaluce
+          - terylt
+          - Andreagit97
+        privacy: closed
+        repos:
+          libs-sdk-go: maintain
+      machine_users:
+        description: bots
+        maintainers:
+          - poiana
+        privacy: closed
+        repos:
+          .github: admin
+          charts: admin
+          client-go: admin
+          client-py: admin
+          client-rs: admin
+          cncf-green-review-testing: admin
+          community: admin
+          contrib: admin
+          dbg-go: admin
+          deploy-kubernetes: admin
+          driverkit: admin
+          event-generator: admin
+          evolution: admin
+          khulnasoft: admin
+          khulnasoft-aws-terraform: admin
+          khulnasoft-exporter: admin
+          khulnasoft-website: admin
+          khulnasoftctl: admin
+          khulnasoft-playground: admin
+          diginfra: admin
+          diginfra-ui: admin
+          flycheck-khulnasoft-rules: admin
+          k8s-metacollector: admin
+          kernel-crawler: admin
+          kernel-testing: admin
+          kilt: admin
+          libs: admin
+          libs-sdk-go: admin
+          pdig: admin
+          peribolos-syncer: admin
+          pigeon: admin
+          plugin-sdk-cpp: admin
+          plugin-sdk-go: admin
+          plugins: admin
+          syscalls-bumper: admin
+          test-infra: admin
+          testing: admin
+      pdig-maintainers:
+        description: maintainers of khulnasoft/pdig
+        maintainers:
+          - ldegio
+        members:
+          - gnosek
+          - leodido
+        privacy: closed
+        repos:
+          pdig: maintain
+      peribolos-syncer-maintainers:
+        description: maintainers of khulnasoft/perperibolos-syncer
+        maintainers:
+          - maxgio92
+          - leogr
+          - FedeDP
+        members: []
+        privacy: closed
+        repos:
+          peribolos-syncer: maintain
+      pigeon-maintainers:
+        description: maintainers of khulnasoft/pigeon
+        maintainers:
+          - jasondellaluce
+        members:
+          - cappellinsamuele
+          - fededp
+        privacy: closed
+        repos:
+          pigeon: maintain
+      plugin-sdk-cpp-maintainers:
+        description: maintainers of khulnasoft/plugin-sdk-cpp
+        maintainers:
+          - ldegio
+          - leogr
+          - mstemm
+        members:
+          - leodido
+          - FedeDP
+        privacy: closed
+        repos:
+          plugin-sdk-cpp: maintain
+      plugin-sdk-go-maintainers:
+        description: maintainers of khulnasoft/plugin-sdk-go
+        maintainers:
+          - leogr
+        members:
+          - jasondellaluce
+        privacy: closed
+        repos:
+          plugin-sdk-go: maintain
+      plugin-sdk-rs-maintainers:
+        description: maintainers of khulnasoft/plugin-sdk-rs
+        maintainers:
+          - gnosek
+          - andreagit97
+        members:
+          - mrgian
+        privacy: closed
+        repos:
+          plugin-sdk-rs: maintain
+      plugins-maintainers:
+        description: maintainers of khulnasoft/plugins
+        maintainers:
+          - leogr
+          - mstemm
+        members:
+          - jasondellaluce
+          - ahmedameenaim
+          - sboschman
+          - LucaGuerra
+        privacy: closed
+        repos:
+          plugins: maintain
+      rules-maintainers:
+        description: maintainers of khulnasoft/rules
+        maintainers:
+          - leogr
+          - LucaGuerra
+        members:
+          - fededp
+          - jasondellaluce
+          - andreagit97
+          - mstemm
+          - incertum
+          - darryk10
+        privacy: closed
+        repos:
+          rules: maintain
+      syscalls-bumper-maintainers:
+        description: maintainers of khulnasoft/syscalls-bumper
+        maintainers:
+          - leogr
+        members:
+          - FedeDP
+          - Andreagit97
+        privacy: closed
+        repos:
+          syscalls-bumper: maintain
+      test-infra-maintainers:
+        description: maintainers of khulnasoft/test-infra
+        maintainers:
+          - leogr
+        members:
+          - maxgio92
+          - zuc
+          - jonahjon
+          - fededp
+        privacy: closed
+        repos:
+          test-infra: maintain
+      testing-maintainers:
+        description: maintainers of khulnasoft/testing
+        maintainers:
+          - jasondellaluce
+          - leogr
+        members:
+          - andreagit97
+          - lucaguerra
+        privacy: closed
+        repos:
+          testing: maintain

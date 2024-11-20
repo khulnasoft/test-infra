@@ -1,0 +1,5 @@
+bucket_name                = "khulnasoft-distribution"
+region                     = "eu-west-1"
+distribution_origin_id     = "khulnasoftDistributionOrigin"
+logging_bucket_name        = "logging-khulnasoft-distribution"
+distribution_name_alias    = "download.khulnasoft.com"
